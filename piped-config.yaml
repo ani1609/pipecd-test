@@ -19,5 +19,5 @@ spec:
     - name: my-cloudrun
       type: CLOUDRUN
       config:
-        project: pipecd-test
+        project: my-project-10038-464220
         region: europe-west1
