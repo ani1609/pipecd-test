@@ -3,10 +3,10 @@ kind: Piped
 spec:
   projectID: quickstart
   # FIXME: Replace here with your piped ID.
-  pipedID: 2293cce7-0aa3-4e59-9db1-988779a7406f
+  pipedID: 2c94f658-d288-44bf-bb5f-229a1e293d37
   # Base64 encoded string of the piped private key.
   # FIXME: Replace here with your piped base64 key.
-  pipedKeyData: MGRzMnhnOXFqeWk0cXo2ZmJpem5vNWV2eWpidm1hZm01eDVkMGJ4Y2lsbHlydDg5bmM=
+  pipedKeyData: aG4wYjdhMzB0MDhtcnVhd3QwMGdhaXpra2FqODFxbTE1a3dkcHVuNmhkN2JreDN2Y3Y=
   # Write in a format like "host:443" because the communication is done via gRPC.
   # FIXME: Replace here with your piped address if you connect Piped to a control plane that does not run locally.
   apiAddress: localhost:8080
