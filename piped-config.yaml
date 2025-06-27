@@ -19,5 +19,5 @@ spec:
     - name: my-cloudrun
       type: CLOUDRUN
       config:
-        project: groovy-height-404319
-        region: europe-west
+        project: pipecd-test
+        region: europe-west1
