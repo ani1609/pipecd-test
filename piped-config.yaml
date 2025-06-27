@@ -11,7 +11,7 @@ spec:
   # FIXME: Replace here with your piped address if you connect Piped to a control plane that does not run locally.
   apiAddress: localhost:8080
   repositories:
-    - repoId: CD
+    - repoId: pipecd-test
       remote: https://github.com/ani1609/pipecd-test.git
       branch: main
   syncInterval: 1m
