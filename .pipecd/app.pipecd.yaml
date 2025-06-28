@@ -1,8 +1,7 @@
 apiVersion: pipecd.dev/v1beta1
 kind: KubernetesApp
-metadata:
-  name: failing-test-app
 spec:
+  name: failing-test-app
   input:
     # This namespace doesn't exist - will cause failure
     namespace: nonexistent-namespace
