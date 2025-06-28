@@ -8,8 +8,3 @@ spec:
     manifests:
       - manifests/deployment.yaml
       - manifests/service.yaml
-  pipeline:
-    stages:
-      - name: K8S_PRIMARY_UPDATE
-        with:
-          replicas: 100%
