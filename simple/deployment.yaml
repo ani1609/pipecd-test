@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: ghcr.io/pipe-cd/helloworld:v0.32.0
+          image: non-existent-image:latest # This will cause deployment failure
           args:
             - server
           ports:
